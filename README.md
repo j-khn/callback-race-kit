@@ -35,7 +35,7 @@ If the callback API cannot be cancelled, return nil. The async caller still rece
 Add the package URL to a Swift Package Manager dependency:
 
 ~~~swift
-.package(url: "https://github.com/j-khn/callback-race-kit.git", branch: "main")
+.package(url: "https://github.com/j-khn/callback-race-kit.git", branch: "master")
 ~~~
 
 Import CallbackRaceKit in the target that wraps the legacy API.
